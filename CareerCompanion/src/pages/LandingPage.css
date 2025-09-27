@@ -1,0 +1,61 @@
+.landing-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #3498DB, #1ABC9C);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.landing-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.landing-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  max-width: 700px;
+}
+
+.landing-buttons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button-login {
+  background-color: #1ABC9C;
+  color: white;
+}
+
+.button-login:hover {
+   background-color: #16A085;
+}
+
+.button-signup {
+  background-color: #1ABC9C;
+  color: white;
+}
+
+.button-signup:hover {
+  background-color: #16A085;
+}
+
+@media (max-width: 768px) {
+  .landing-title {
+    font-size: 2.2rem;
+  }
+}

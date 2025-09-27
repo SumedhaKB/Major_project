@@ -1,0 +1,47 @@
+/* HomePage.css */
+
+.home-container {
+  min-height: 100vh;
+  background-color: #f9fafb; /* light gray */
+  padding: 40px;
+}
+
+.home-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #111827; /* dark gray */
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background-color: white;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.15);
+  transform: translateY(-4px);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.card-description {
+  color: #4b5563; /* gray-600 */
+  font-size: 1rem;
+}

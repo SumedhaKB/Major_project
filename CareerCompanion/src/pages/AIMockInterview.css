@@ -1,0 +1,19 @@
+/* AIMockInterview.css */
+
+.aimock-container {
+  padding: 40px;
+  background-color: #f9fafb; /* light gray background */
+  min-height: 100vh;
+}
+
+.aimock-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #111827; /* dark gray */
+}
+
+.aimock-description {
+  font-size: 1rem;
+  color: #4b5563; /* gray text */
+}
