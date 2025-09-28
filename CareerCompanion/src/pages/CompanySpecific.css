@@ -1,19 +1,102 @@
-/* CompanySpecific.css */
-
-.company-container {
-  padding: 40px;
-  background-color: #f9fafb; /* light gray background */
-  min-height: 100vh;
-}
-
-.company-title {
-  font-size: 2rem;
+/* Back Button */
+.back-button {
+  display: inline-block;
+  margin: 15px 0;
+  padding: 8px 14px;
+  background-color: #007BFF;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
   font-weight: bold;
-  margin-bottom: 20px;
-  color: #111827; /* dark gray */
+  transition: background-color 0.3s ease;
 }
 
-.company-description {
-  font-size: 1rem;
-  color: #4b5563; /* gray text */
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+/* Company Detail Page Container */
+.company-details-page {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Company Header */
+.company-details-page h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.company-details-page h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.company-details-page p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Each Round Card */
+.round-section {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #007BFF;
+  transition: transform 0.2s ease;
+}
+
+.round-section:hover {
+  transform: translateY(-5px);
+}
+
+.round-section h4 {
+  font-size: 18px;
+  color: #007BFF;
+  margin-bottom: 10px;
+}
+
+.round-section p {
+  font-size: 15px;
+  color: #555;
+}
+
+/* Buttons for Practice & Mock Test */
+.practice-button, .mock-button {
+  margin: 8px 5px 0 0;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+.practice-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.practice-button:hover {
+  transform: scale(1.05);
+  background-color: #218838;
+}
+
+.mock-button {
+  background-color: #ffc107;
+  color: black;
+}
+
+.mock-button:hover {
+  transform: scale(1.05);
+  background-color: #e0a800;
 }
