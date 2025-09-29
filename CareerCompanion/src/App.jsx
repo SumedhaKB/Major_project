@@ -8,6 +8,7 @@ import CompanySpecific from "./pages/CompanySpecific";
 import GeneralPrep from "./pages/GeneralPrep";
 import AIMockInterview from "./pages/AIMockInterview";
 import CompanyDetails from "./pages/CompanyDetails";
+import PracticePage from "./pages/PractisePage";
 
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/home" element={<HomePage />} />
         <Route path="/company-specific" element={<CompanySpecific />} />
         <Route path="/company/:name" element={<CompanyDetails/>} />
+        <Route path="/practice/:companyName/:roundTitle" element={<PracticePage/>} />
         <Route path="/general-prep" element={<GeneralPrep />} />
         <Route path="/ai-mock-interview" element={<AIMockInterview />} />
       </Routes>

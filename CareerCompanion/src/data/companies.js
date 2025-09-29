@@ -6,7 +6,7 @@ export const companies = [
     overview: "The Wipro hiring process for a software developer typically involves three main rounds: an Online Assessment (aptitude, coding, and logic), a Technical Interview, and an HR Interview to gauge cultural fit and communication. For experienced roles, the process can also include a managerial round and client interview.",
     rounds: [
       {
-        title: "Online Assessment (OA)",
+        title: "Online Assessment",
         details: "This is the initial screening round where candidates are tested on their fundamental skills. It often includes aptitude (logical reasoning, quantitative ability, verbal skills), coding (basic programming questions or short coding challenges), and sometimes essay writing to assess communication."
       },
       {
@@ -78,11 +78,11 @@ export const companies = [
         details: "Includes multiple-choice questions covering C, C++, Java, operating systems, DBMS, computer networks, and aptitude topics (quantitative ability, logical reasoning)."
       },
       {
-        title: "Technical Interview(s)",
+        title: "Technical Interview",
         details: "Includes solving coding problems, explaining data structures and algorithms, discussing past projects or internships. Focuses on practical application of technical knowledge."
       },
       {
-        title: "HR/Managerial Interview",
+        title: "HR / Managerial Interview",
         details: "Focuses on motivation for joining IBM, career goals, and cultural alignment. Includes discussion of past projects in detail."
       },
       {
@@ -98,15 +98,15 @@ export const companies = [
     overview: "Accenture software developer interviews typically involve an Online Assessment (aptitude and coding), followed by technical interviews focusing on projects and coding skills, and ending with an HR interview assessing communication and cultural fit. Additional online activities or case studies may be included.",
     rounds: [
       {
-        title: "Online Assessment (First Round)",
+        title: "Online Assessment (Cognitive + Aptitude + Coding)",
         details: "Cognitive and aptitude test plus coding challenge. Cutoff scores must be met to proceed."
       },
       {
-        title: "Technical Interview(s) (Second Round)",
+        title: "Technical Interview",
         details: "Includes project discussion, coding questions, technical concepts (immutable classes, singleton design pattern, Java Streams), and role-specific skills like Angular JS or Spring Boot."
       },
       {
-        title: "HR Interview (Final Round)",
+        title: "HR Interview",
         details: "Assesses communication, teamwork, problem-solving, behavioral approach, and company fit."
       },
       {
